@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #0B0B0E;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+/* header*/
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #003004;
+}
+
+.header_conteiner {
+    padding: 12px 0;
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.header_links {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 228px;
+    height: 53px;
+}
+
+/* mainnnnnnnnnnn */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_conteiner {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.card_conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_img {
+    width: 381px;
+    height: 358px;
+}
+
+.cards_info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 564px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 68px;
+}
+
+.card_txt {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.dagent {
+    width: 200px;
+    padding: 12px 24px;
+    text-align: center;
+    color: #fff;
+    border-radius: 24px;
+}
+
+.org {
+    border: 0;
+    background-color: #ff371a;
+}
+
+.AAI {
+    margin-left: 16px;
+    background-color: #0B0B0E;
+    border: 1px solid #2F2C33;
+}
+
+.sponsor_logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    width: 320px;
+}
+
+.sponsor_icon {
+    width: 48px;
+    height: 48px;
+}
+
+
+.brain_box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: center;
+}
+
+.agents_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.backgraund_all {
+    border-radius: 12px;
+    background: #191919;
+    padding: 16px;
+    width: 508px;
+    gap: 12px;
+}
+
+.box_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.box_info {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.setings_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Twins {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.brain_combo {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.Compute {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    height: 251px;
+}
+
+/* influ divvvvv */
+
+.content_nst {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+}
+
+.content_nst_p {
+    color: #7a7a7a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.influencer_grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.influ_box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.influ {
+    background: #191919;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 252px;
+    border-radius: 12px;
+}
+
+.influ_p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.ProfileCard {
+    display: flex;
+
+}
