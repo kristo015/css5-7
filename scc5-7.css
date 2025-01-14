@@ -252,5 +252,149 @@ h3 {
 
 .ProfileCard {
     display: flex;
+    gap: 10px;
+    width: 100%;
+}
 
+.influ_email {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 150px;
+}
+
+.name_box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.influ_name {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.tick_img {
+    width: 16px;
+    height: 16px;
+}
+
+.email_box {
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 64px;
+    gap: 32px;
+}
+
+.mail_div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email_button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #FF371A;
+    border-radius: 12px;
+    text-align: center;
+    padding: 12px 24px;
+    width: 126px;
+    border: 0;
+}
+
+.email_form {
+    width: 338px;
+    background: #0B0B0E;
+    border-radius: 8px;
+    border: 1px;
+    padding: 14px;
+    border: 1px solid #7A7A7A;
+}
+
+.email_form::placeholder {
+    color: #7a7a7a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bay_box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bay_box_title {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.bay_box_span {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 55px;
+    text-align: left;
+}
+
+.bay_box_p {
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.01px;
+    text-align: left;
+}
+
+.bay_conteiner {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.bay_box_conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    align-items: center;
+    background-color: #191919;
+    width: 330px;
+    padding: 40px 0;
+}
+
+.dolari_box {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.patara_spani {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.dolari_span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 38px;
+    text-align: left;
+}
+
+.Popular {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    background: #FF371A;
+    width: 100px;
 }
