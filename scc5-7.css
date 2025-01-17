@@ -398,3 +398,239 @@ h3 {
     background: #FF371A;
     width: 100px;
 }
+
+.mony_box {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.text_img {
+    display: flex;
+    justify-content: start;
+    gap: 13px;
+}
+
+.bay_box_tichka {
+    width: 16px;
+}
+
+.tichka_p {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.bay_box_button {
+    width: 250px;
+    border: 1.5px solid #FF371A;
+    background: #FF371A;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.bay {
+    background-color: #191919;
+}
+
+.dolari_box>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.dolari_p {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.dolari_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mony_box {
+    border-top: 1px solid #888888;
+    padding: 20px 0;
+}
+
+.info_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.info_conteiner {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.info_conteiner>div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.info_tichka {
+    width: 30px;
+    height: 30px;
+}
+
+.on {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.on_info {
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.email_div {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.influ_name {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1096px;
+    gap: 64px;
+    padding: 32px 0;
+}
+
+.imig_combo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer_p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.romm {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.star_box {
+    display: flex;
+    justify-content: center;
+}
+
+.img_box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 320px;
+
+}
+
+
+.satar_text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.star_txt {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.tex_span {
+    color: #E9D7FE;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14.4px;
+}
+
+.link_conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.linkebi {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 176px;
+}
+
+.links_span {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.fotter_start {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_end {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.ego_p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.icon_box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
